@@ -6,25 +6,28 @@ const AppState = () => {
     const [allNotes, setAllNotes] = useState([
         { 
             nodeID: 1,
-            noteTitle : "First Idea"
+            noteTitle : "First Idea",
+            noteText : "First Text"
         },
         { 
             nodeID: 2,
-            noteTitle : "Secon Idea"
+            noteTitle : "Secon Idea",
+            noteText : "Secon Text"
         },
         { 
             nodeID: 3,
-            noteTitle : "Thir Idea"
+            noteTitle : "Thir Idea",
+            noteText : "Thir Text"
         }
     ])
 
-    const [note, setNotes] = useState({})
+    const [note, setNote] = useState({})
  
     const AppState ={
         allNotes,
         setAllNotes,
         note,
-        setNotes
+        setNote
     }
 
 
